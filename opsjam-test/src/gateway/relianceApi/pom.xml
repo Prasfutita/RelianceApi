@@ -28,7 +28,7 @@
     <groupId>apigee</groupId>
     <artifactId>relianceApi</artifactId>
     <version>1.0</version>
-    <name>hotelsapi</name>
+    <name>relianceApi</name>
     <packaging>pom</packaging>
 <!-- optional tests
     <profiles>
