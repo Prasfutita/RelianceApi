@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="1" name="policyDetail_rev1_2018_05_03_Prasfutita">
+    <Basepaths>/policydetail</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1526023374492</CreatedAt>
+    <CreatedBy>prasfutita.chatterjee@pwc.com</CreatedBy>
+    <Description></Description>
+    <DisplayName>policyDetail</DisplayName>
+    <LastModifiedAt>1526023374492</LastModifiedAt>
+    <LastModifiedBy>prasfutita.chatterjee@pwc.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:b5340b0bcd1f03a3e605a8e2cb0ba1ec0c8dd5f9f4b2d40ca66962ca561eacbcdd45f5970e67edeb994e1a62b3aad1dd16cca311955a2de7bb05164a96b67544</ManifestVersion>
+    <Policies/>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources/>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>
