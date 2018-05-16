@@ -102,7 +102,7 @@
                 <options>validate</options>  
                 <apigee.profile>test</apigee.profile>
                 <apigee.env>test</apigee.env>
-                <apigee.hosturl>https://apigee.com</apigee.hosturl>
+                <apigee.hosturl>https://api.enterprise.apigee.com</apigee.hosturl>
                 <apigee.apiversion>v1</apigee.apiversion>
                 <apigee.org>${org}</apigee.org>
                 <apigee.username>${username}</apigee.username>
@@ -113,23 +113,6 @@
                 <!--apigee.delay>1000</apigee.delay-->
             </properties>
         </profile>
-        <profile>
-            <id>prod</id>
-            <properties>
-                <org></org>  <!-- default org, replace with default org to avoid passing parameter e.g. -Dorg testmyapi -->
-                <options>validate</options> 
-                <apigee.profile>prod</apigee.profile>
-                <apigee.env>prod</apigee.env>
-                <apigee.hosturl>https://apigee.com</apigee.hosturl>
-                <apigee.apiversion>v1</apigee.apiversion>
-                <apigee.org>${org}</apigee.org>
-                <apigee.username>${username}</apigee.username>
-                <apigee.password>${password}</apigee.password>
-                <!--<apigee.options>${options}</apigee.options>
-                <apigee.revision>${revision}</apigee.revision> --><!-- used while trying to update revision, use when option=update only -->
-                <!--apigee.override.delay>10</apigee.override.delay-->
-                <!--apigee.delay>1000</apigee.delay-->
-            </properties>
-        </profile>
+       
     </profiles>
 </project>
