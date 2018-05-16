@@ -21,7 +21,7 @@
     <groupId>apigee</groupId>
     <artifactId>parent-pom</artifactId>
     <packaging>pom</packaging>
-    <version>3.0</version>
+    <version>1.0</version>
     <pluginRepositories>
         <pluginRepository>
             <id>central</id>
@@ -100,8 +100,8 @@
             <properties>
                 <org></org>  <!-- default org, replace with default org to avoid passing parameter e.g. -Dorg testmyapi -->
                 <options>validate</options>  
-                <apigee.profile>test</apigee.profile>
-                <apigee.env>test</apigee.env>
+                <apigee.profile>prod</apigee.profile>
+                <apigee.env>prod</apigee.env>
                 <apigee.hosturl>https://api.enterprise.apigee.com</apigee.hosturl>
                 <apigee.apiversion>v1</apigee.apiversion>
                 <apigee.org>${org}</apigee.org>
